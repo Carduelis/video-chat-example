@@ -7,9 +7,7 @@
   "parserOptions": {
     "ecmaVersion": 5
   },
-  "plugins": [
-    "react"
-  ],
+  "plugins": ["react"],
   "rules": {
     "no-underscore-dangle": 0,
     "vars-on-top": 0,
@@ -19,10 +17,14 @@
     "func-names": 0,
     "prefer-arrow-callback": 0,
     "object-shorthand": 0,
-    "no-unused-expressions": [2, {
-      "allowTernary": true,
-      "allowShortCircuit": true
-    }],
+    "quotes": "off",
+    "no-unused-expressions": [
+      2,
+      {
+        "allowTernary": true,
+        "allowShortCircuit": true
+      }
+    ],
     "global-require": 0,
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
   },
